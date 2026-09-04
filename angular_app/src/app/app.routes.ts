@@ -1,3 +1,11 @@
 import { Routes } from '@angular/router';
 
-export const routes: Routes = [];
+import { PipesComponent } from './pipes/pipes.component';
+
+export const routes: Routes = [
+  {
+    path: '',
+    component: PipesComponent,
+    pathMatch: 'full',
+  }
+];
