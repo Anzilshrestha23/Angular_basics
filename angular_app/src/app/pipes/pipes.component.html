@@ -1,9 +1,13 @@
 <h1>{{name | uppercase}}</h1>
-<h1>{{name | lowercase}}</h1>
+<h1>{{name | lowercase}}</h1> 
 <p>{{mynumber | currency}}</p>
 <p>{{mynumber | currency:"AUD"}}</p>
 <p>{{mynumber | percent}}</p>
-<p>{{name | slice: 0:2}}</p>
-<p>todays  date is {{currentDate | date | uppercase}}</p>
-<p>today is {{today | date : 'fullDate'}}</p>
+<p>{{name | slice: 1:4}}</p>
+<p>todays date is {{currentDate | date | uppercase}}</p>
+<p>Today is {{today | date : "fullDate"}}</p>
 
+
+<p>{{birthdate | date: "longDate"}}</p>
+<p>The birthdate is {{birthdate | date : format}} in the {{format}} format.</p>
+<button (click)="change()">Toggle</button>
