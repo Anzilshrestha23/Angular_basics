@@ -1,8 +1,6 @@
-import { CurrencyPipe, DATE_PIPE_DEFAULT_OPTIONS, DatePipe, LowerCasePipe, PercentPipe, SlicePipe, UpperCasePipe } from '@angular/common';
-import { Component, NgModule } from '@angular/core';
-import { FormsModule, NgModel } from '@angular/forms';
+import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { pipe } from 'rxjs';
+
 
 @Component({
   selector: 'app-root',
